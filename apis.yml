@@ -1,8 +1,25 @@
 aid: roivant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roivant.png
 name: Roivant
-description: 'Roivant is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Roivant Sciences Ltd. (Nasdaq: ROIV) is a commercial-stage biopharmaceutical
+  holding company that accelerates the development and commercialization of medicines
+  through its distinctive "Vant" model, a network of nimble, focused subsidiary companies
+  such as Immunovant, Priovant, and Pulmovant. Founded in 2014, Roivant advances a
+  pipeline spanning immunology, dermatology, and other therapeutic areas, and has delivered
+  multiple FDA approvals and Phase 3 trial successes. Roivant is a company profile in
+  the API Evangelist network; it operates a corporate and investor web presence but
+  publishes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/roivant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health Tech
+- Biopharmaceutical
+- Pharmaceuticals
+- Drug Development
+- Life Sciences
+- Immunology
 apis: []
+common:
+- type: Website
+  url: https://roivant.com
+- type: About
+  url: https://roivant.com/about/company
+- type: Blog
+  url: https://investor.roivant.com/news-events/press-releases
+- type: Investors
+  url: https://investor.roivant.com/
+- type: PrivacyPolicy
+  url: https://roivant.com/privacy-policy
+- type: TermsOfService
+  url: https://roivant.com/terms-of-use
+- type: DomainSecurity
+  url: security/roivant-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
